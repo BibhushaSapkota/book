@@ -1,14 +1,15 @@
-import { useState } from "react";
 
-function App() {
-  const [counter, setCounter] = useState(0)
-  setTimeout(()=>setCounter(counter+1),1000);
+import Buttons from "./components/Buttons";
+import Feedback from "./components/Feedback";
 
-  console.log(`Rendering ${counter}....`)
+function App() { 
   return (
     <div>
-      <h2>{counter} </h2>
+      <Feedback />
+      <Buttons/>
+      
     </div>
+
   );
 }
 
