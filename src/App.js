@@ -1,16 +1,10 @@
 
-import Buttons from "./components/Buttons";
-import Feedback from "./components/Feedback";
-import History from "./components/History";
 
-function App() {
+function App(props) {
+  const {notes}=props.notes
   return (
-    <div>
-      <Feedback />
-      <Buttons />
-      <History />
-    </div>
-
+    <h2>Notes</h2>
+  
   );
 }
 
