@@ -1,13 +1,14 @@
 
 import Buttons from "./components/Buttons";
 import Feedback from "./components/Feedback";
+import History from "./components/History";
 
-function App() { 
+function App() {
   return (
     <div>
       <Feedback />
-      <Buttons/>
-      
+      <Buttons />
+      <History />
     </div>
 
   );
