@@ -1,63 +1,65 @@
 import { useState } from "react";
+import 
 
-function App(props) {
-  
-  
-  // const [newNote, setnewNote] = useState('');
-  // const [notes, setNotes] = useState(props.notes);
-  // const [showall, setShowAll] = useState(true);
 
-  // const notesToShow = showall
-  //   ? notes
-  //   : notes.filter(n => n.important === true)
+function App() {
+  // const [newName, setnewName] = useState('Add your Name');
+  // const [newNumber, setnewNumber] = useState('Add your Number');
+  // const [contact, setcontact] = useState([]);
 
 
   // const handlesave = (event) => {
-  //   event.preventDefault()
-  //   //create a note 
-  //   const note = {
-  //     id: notes.length + 1,
-  //     content: newNote,
-  //     date: new Date().toString(),
-  //     important: Math.random() < 0.5
+  //     event.preventDefault()
+  //     //create a contact
+  //     contact = {
+  //         newName: newName,
+  //         newNumber: newNumber
+  //     }
+  //     if (newName !== '' & newNumber !== '') {
+  //         setcontact(newName.concat(contact.newname), newNumber.concat(contact.newnumber));
+  //     }
+      
+  //         setnewName(''),
+  //         setnewNumber('')
+  
 
-  //   }
-  //   if (newNote !== '') setNotes(notes.concat(note))
-  //   setnewNote('')
   // }
-  // const handleInputChange = (event) => {
-  //   console.log(event.target.value)
-  //   setnewNote(event.target.value)
+  // const handleName = (event) => {
+  //     console.log(event.target.value)
+  //     setnewName(event.target.value)
   // }
 
-  // const handledelete = (id) => {
-  //   if(window.confirm(`Do you really want to delete note with id ${id}?`)){
-  //     setNotes(notes.filter(notes=> notes.id !== id));
-  //   }
-    
+  // const handleNumber = (event) => {
+  //     console.log(event.target.value)
+  //     setnewNumber(event.target.value)
   // }
 
   // return (
-  //   <>
-  //     <h2>Notes</h2>
-  //     <button onClick={() => setShowAll(!showall)}>{showall ? 'show important' : 'show all'}</button>
-  //     <ul>
-  //       {notesToShow.map(note =>
+  //     <>
+  //         <h2>PhoneBook</h2>
+  //         <form>
+  //             <input value={newName} onChange={handleName} /><br />
+  //             <input value={newNumber} onChange={handleNumber} /><br />
+  //             <button onClick={handlesave} >save</button>
 
-  //         <li key={note.id}>
-  //           {note.content}<br />
-  //           {note.date} <button onClick={() => handledelete(note.id)}>delete</button>
-  //         </li>
-  //       )}
-  //     </ul>
+  //             <h1>Numbers </h1>
+  //             <ul>
 
-  //     <form>
-  //       <input value={newNote} onChange={handleInputChange} />
-  //       <button onClick={handlesave} >save</button>
-  //     </form>
-  //   </>
+
+  //                 <li >
+
+  //                 </li>
+
+  //             </ul>
+  //         </form>
+  //     </>
   // );
-  
+  return (
+    <div>
+        
+    </div>
+)
+
 }
 
 export default App;
